@@ -1,0 +1,26 @@
+{
+  "name": "TestLib",
+  "version": "1.0.0",
+  "summary": "Some summary",
+  "description": "Some description",
+  "homepage": "https://sometest.com/",
+  "license": "Some license",
+  "authors": {
+    "Test": "tester"
+  },
+  "platforms": {
+    "ios": "8.0",
+    "osx": "10.11"
+  },
+  "source": {
+	"http": "file:///Users/klemix/Work/Tests/TestXCPod/build/TestLib.xcframework"
+  },
+  "frameworks": [
+  ],
+  "libraries": [
+  ],
+  "requires_arc": true,
+  "vendored_frameworks": [
+    "TestLib.xcframework"
+  ]
+}
