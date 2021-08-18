@@ -1,0 +1,28 @@
+{
+  "name": "SomePrivatePod",
+  "version": "5.3.2",
+  "summary": "SomePrivatePod.",
+  "description": "SomePrivatePod.",
+  "homepage": "http://SomePrivatePod.com",
+  "license": "Apache License, Version 2.0",
+  "authors": {
+    "SomePrivatePod": "SomePrivatePod"
+  },
+  "source": {
+    "git": "https://github.com/iKleMiX/SomePrivatePod.git",
+    "branch": "xcf"
+  },
+  "platforms": {
+    "ios": "9.0",
+    "osx": "10.11"
+  },
+  "requires_arc": true,
+  "ios": {
+    "frameworks": [
+      "UIKit",
+      "QuartzCore",
+      "WebKit"
+    ]
+  },
+  "vendored_frameworks": "TestLib.xcframework"
+}

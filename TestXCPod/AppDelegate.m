@@ -6,8 +6,8 @@
 //
 
 #import "AppDelegate.h"
+#import "TestLib_macOS.h" // works but is not acceptable
 #import <TestLib/TestLib_macOS.h> // won't work
-//#import "TestLib.h" // works but is not acceptable
 
 @interface AppDelegate ()
 

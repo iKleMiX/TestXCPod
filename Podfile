@@ -7,6 +7,6 @@ target 'TestXCPod' do
   platform :osx, '10.15'
 
   # Pods for TestXCPod
-  pod 'TestLib', :path => 'build'
+  pod 'SomePrivatePod', :git => 'git@github.com:iKleMiX/SomePrivatePod.git', :branch => 'xcf'
 end
   

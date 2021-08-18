@@ -6,20 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		D3FAF793252DEE4100FD8132 /* BuildLib */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = D3FAF794252DEE4100FD8132 /* Build configuration list for PBXAggregateTarget "BuildLib" */;
-			buildPhases = (
-				D3FAF79B252DEE4900FD8132 /* ShellScript */,
-			);
-			dependencies = (
-			);
-			name = BuildLib;
-			productName = BuildLib;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		C4A515E6D9D2EC4A6872F128 /* libPods-TestXCPod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D565DB993D728BC4F81ACD78 /* libPods-TestXCPod.a */; };
 		D3FAF75C252DED3500FD8132 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FAF75B252DED3500FD8132 /* AppDelegate.m */; };
@@ -27,24 +13,7 @@
 		D3FAF761252DED3600FD8132 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FAF760252DED3600FD8132 /* Assets.xcassets */; };
 		D3FAF764252DED3600FD8132 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FAF762252DED3600FD8132 /* Main.storyboard */; };
 		D3FAF767252DED3600FD8132 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FAF766252DED3600FD8132 /* main.m */; };
-		D3FAF776252DED5E00FD8132 /* TestLib_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = D3FAF775252DED5E00FD8132 /* TestLib_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3FAF778252DED5F00FD8132 /* TestLib_macOS.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FAF777252DED5F00FD8132 /* TestLib_macOS.m */; };
-		D3FAF788252DED8700FD8132 /* TestLib.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FAF787252DED8700FD8132 /* TestLib.m */; };
-		D3FAF789252DED8700FD8132 /* TestLib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D3FAF786252DED8700FD8132 /* TestLib.h */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		D3FAF782252DED8700FD8132 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-				D3FAF789252DED8700FD8132 /* TestLib.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		05559AFC6AC23EB75146AC10 /* Pods-TestXCPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestXCPod.debug.xcconfig"; path = "Target Support Files/Pods-TestXCPod/Pods-TestXCPod.debug.xcconfig"; sourceTree = "<group>"; };
@@ -59,12 +28,6 @@
 		D3FAF765252DED3600FD8132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3FAF766252DED3600FD8132 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D3FAF768252DED3600FD8132 /* TestXCPod.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestXCPod.entitlements; sourceTree = "<group>"; };
-		D3FAF773252DED5E00FD8132 /* libTestLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3FAF775252DED5E00FD8132 /* TestLib_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLib_macOS.h; sourceTree = "<group>"; };
-		D3FAF777252DED5F00FD8132 /* TestLib_macOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLib_macOS.m; sourceTree = "<group>"; };
-		D3FAF784252DED8700FD8132 /* libTestLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTestLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3FAF786252DED8700FD8132 /* TestLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLib.h; sourceTree = "<group>"; };
-		D3FAF787252DED8700FD8132 /* TestLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLib.m; sourceTree = "<group>"; };
 		D3FAFFC7252F104500FD8132 /* TestLib.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TestLib.xcframework; path = build/TestLib.xcframework; sourceTree = "<group>"; };
 		D565DB993D728BC4F81ACD78 /* libPods-TestXCPod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestXCPod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -75,20 +38,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4A515E6D9D2EC4A6872F128 /* libPods-TestXCPod.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3FAF771252DED5E00FD8132 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3FAF781252DED8700FD8132 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				D3FAF759252DED3500FD8132 /* TestXCPod */,
-				D3FAF774252DED5E00FD8132 /* TestLib-macOS */,
-				D3FAF785252DED8700FD8132 /* TestLib */,
 				D3FAF758252DED3500FD8132 /* Products */,
 				B2ED1AD4457B396ECA08B938 /* Pods */,
 				3A8D7E999D6FC5A40BB37E1D /* Frameworks */,
@@ -129,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				D3FAF757252DED3500FD8132 /* TestXCPod.app */,
-				D3FAF773252DED5E00FD8132 /* libTestLib.a */,
-				D3FAF784252DED8700FD8132 /* libTestLib.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,36 +96,7 @@
 			path = TestXCPod;
 			sourceTree = "<group>";
 		};
-		D3FAF774252DED5E00FD8132 /* TestLib-macOS */ = {
-			isa = PBXGroup;
-			children = (
-				D3FAF775252DED5E00FD8132 /* TestLib_macOS.h */,
-				D3FAF777252DED5F00FD8132 /* TestLib_macOS.m */,
-			);
-			path = "TestLib-macOS";
-			sourceTree = "<group>";
-		};
-		D3FAF785252DED8700FD8132 /* TestLib */ = {
-			isa = PBXGroup;
-			children = (
-				D3FAF786252DED8700FD8132 /* TestLib.h */,
-				D3FAF787252DED8700FD8132 /* TestLib.m */,
-			);
-			path = TestLib;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		D3FAF76F252DED5E00FD8132 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3FAF776252DED5E00FD8132 /* TestLib_macOS.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		D3FAF756252DED3500FD8132 /* TestXCPod */ = {
@@ -202,40 +118,6 @@
 			productReference = D3FAF757252DED3500FD8132 /* TestXCPod.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D3FAF772252DED5E00FD8132 /* TestLib-macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D3FAF779252DED5F00FD8132 /* Build configuration list for PBXNativeTarget "TestLib-macOS" */;
-			buildPhases = (
-				D3FAF76F252DED5E00FD8132 /* Headers */,
-				D3FAF770252DED5E00FD8132 /* Sources */,
-				D3FAF771252DED5E00FD8132 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "TestLib-macOS";
-			productName = "TestLib-macOS";
-			productReference = D3FAF773252DED5E00FD8132 /* libTestLib.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		D3FAF783252DED8700FD8132 /* TestLib-iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D3FAF78A252DED8700FD8132 /* Build configuration list for PBXNativeTarget "TestLib-iOS" */;
-			buildPhases = (
-				D3FAF780252DED8700FD8132 /* Sources */,
-				D3FAF781252DED8700FD8132 /* Frameworks */,
-				D3FAF782252DED8700FD8132 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "TestLib-iOS";
-			productName = TestLib;
-			productReference = D3FAF784252DED8700FD8132 /* libTestLib.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -245,15 +127,6 @@
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
 					D3FAF756252DED3500FD8132 = {
-						CreatedOnToolsVersion = 12.2;
-					};
-					D3FAF772252DED5E00FD8132 = {
-						CreatedOnToolsVersion = 12.2;
-					};
-					D3FAF783252DED8700FD8132 = {
-						CreatedOnToolsVersion = 12.2;
-					};
-					D3FAF793252DEE4100FD8132 = {
 						CreatedOnToolsVersion = 12.2;
 					};
 				};
@@ -272,9 +145,6 @@
 			projectRoot = "";
 			targets = (
 				D3FAF756252DED3500FD8132 /* TestXCPod */,
-				D3FAF772252DED5E00FD8132 /* TestLib-macOS */,
-				D3FAF783252DED8700FD8132 /* TestLib-iOS */,
-				D3FAF793252DEE4100FD8132 /* BuildLib */,
 			);
 		};
 /* End PBXProject section */
@@ -314,23 +184,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D3FAF79B252DEE4900FD8132 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "#!/bin/bash\nset -e\nset +x\n\nWORKING_DIR=$(pwd)\nBUILD_CONFIG=\"Debug\" \nBUILD_TYPE=\"staticlib\"\nBUILD_SCHEME=\"TestLib\"\nBUILD_PROJECT=\"TestXCPod.xcodeproj\"\nDERIVED_DATA_RELATIVE_DIR=temp\nCUSTOM_DERIVED_PATH=\"${WORKING_DIR}/${DERIVED_DATA_RELATIVE_DIR}\"\n\nxcodebuild -configuration ${BUILD_CONFIG} MACH_O_TYPE=${BUILD_TYPE} -sdk \"iphonesimulator\" -project ${BUILD_PROJECT} -scheme ${BUILD_SCHEME}-iOS SYMROOT=\"${DERIVED_DATA_RELATIVE_DIR}/\" -derivedDataPath \"${CUSTOM_DERIVED_PATH}\"\nxcodebuild -configuration ${BUILD_CONFIG} MACH_O_TYPE=${BUILD_TYPE} -destination \"generic/platform=iOS\"  -project ${BUILD_PROJECT} -scheme ${BUILD_SCHEME}-iOS SYMROOT=\"${DERIVED_DATA_RELATIVE_DIR}/\" -derivedDataPath \"${CUSTOM_DERIVED_PATH}\"\nxcodebuild -configuration ${BUILD_CONFIG} -destination \"platform=macOS,variant=Mac Catalyst\" MACH_O_TYPE=${BUILD_TYPE} -project ${BUILD_PROJECT} -scheme ${BUILD_SCHEME}-iOS SYMROOT=\"${DERIVED_DATA_RELATIVE_DIR}/\" -derivedDataPath \"${CUSTOM_DERIVED_PATH}\"\n\nxcodebuild -configuration ${BUILD_CONFIG} MACH_O_TYPE=${BUILD_TYPE} -destination \"platform=macOS,arch=x86_64\"  -project ${BUILD_PROJECT} -scheme ${BUILD_SCHEME}-macOS SYMROOT=\"${DERIVED_DATA_RELATIVE_DIR}/\" -derivedDataPath \"${CUSTOM_DERIVED_PATH}\"\n\nUSER=$(id -un)\nDERIVED_DATA_DIR=\"${WORKING_DIR}/${DERIVED_DATA_RELATIVE_DIR}\"\n\n# Use Debug configuration to expose symbols\nCATALYST_DIR=\"${DERIVED_DATA_DIR}/${BUILD_CONFIG}-maccatalyst\"\nSIMULATOR_DIR=\"${DERIVED_DATA_DIR}/${BUILD_CONFIG}-iphonesimulator\"\nIPHONE_DIR=\"${DERIVED_DATA_DIR}/${BUILD_CONFIG}-iphoneos\"\nMACOS_DIR=\"${DERIVED_DATA_DIR}/${BUILD_CONFIG}\"\n\nCATALYST_OUTPUT=\"${CATALYST_DIR}/lib${BUILD_SCHEME}.a\"\nSIMULATOR_OUTPUT=\"${SIMULATOR_DIR}/lib${BUILD_SCHEME}.a\"\nIPHONE_OUTPUT=\"${IPHONE_DIR}/lib${BUILD_SCHEME}.a\"\nMACOS_OUTPUT=\"${MACOS_DIR}/lib${BUILD_SCHEME}.a\"\n\nUNIVERSAL_DIR=\"${DERIVED_DATA_DIR}/${BUILD_CONFIG}-universal\"\n\nrm -rf \"${UNIVERSAL_DIR}\"\nmkdir \"${UNIVERSAL_DIR}\"\n\nmv \"${CATALYST_DIR}/include/${BUILD_SCHEME}\" \"${CATALYST_DIR}/include/tmp\"\nmkdir \"${CATALYST_DIR}/include/${BUILD_SCHEME}\"\ncp -R \"${CATALYST_DIR}/include/tmp\" \"${CATALYST_DIR}/include/${BUILD_SCHEME}/${BUILD_SCHEME}\"\n\necho \"> Making Final ${BUILD_SCHEME} with all Architectures. iOS, iOS Simulator(x86_64), macOS Catalyst(x86_64h), macOS\"\n\nxcodebuild -create-xcframework \\\n    -library ${CATALYST_OUTPUT} -headers \"${CATALYST_DIR}/include/${BUILD_SCHEME}\" \\\n    -library ${SIMULATOR_OUTPUT} -headers \"${SIMULATOR_DIR}/include/${BUILD_SCHEME}\" \\\n    -library ${IPHONE_OUTPUT} -headers \"${IPHONE_DIR}/include/${BUILD_SCHEME}\" \\\n    -library ${MACOS_OUTPUT} -headers \"${MACOS_DIR}/usr/local/include\" \\\n    -output \"${UNIVERSAL_DIR}/${BUILD_SCHEME}.xcframework\"\n\nrm -rf build\nmkdir build\ncp -R \"${UNIVERSAL_DIR}/${BUILD_SCHEME}.xcframework\" \"build\"\ncp TestLib.podspec.json build/TestLib.podspec.json\n";
-		};
 		D3FAF8E8252E131400FD8132 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -358,22 +211,6 @@
 				D3FAF75F252DED3500FD8132 /* ViewController.m in Sources */,
 				D3FAF767252DED3600FD8132 /* main.m in Sources */,
 				D3FAF75C252DED3500FD8132 /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3FAF770252DED5E00FD8132 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3FAF778252DED5F00FD8132 /* TestLib_macOS.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3FAF780252DED8700FD8132 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3FAF788252DED8700FD8132 /* TestLib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,69 +377,6 @@
 			};
 			name = Release;
 		};
-		D3FAF77A252DED5F00FD8132 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				EXECUTABLE_PREFIX = lib;
-				PRODUCT_NAME = TestLib;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		D3FAF77B252DED5F00FD8132 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				EXECUTABLE_PREFIX = lib;
-				PRODUCT_NAME = TestLib;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		D3FAF78B252DED8700FD8132 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = TestLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		D3FAF78C252DED8700FD8132 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = TestLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		D3FAF795252DEE4100FD8132 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		D3FAF796252DEE4100FD8132 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -620,33 +394,6 @@
 			buildConfigurations = (
 				D3FAF76C252DED3600FD8132 /* Debug */,
 				D3FAF76D252DED3600FD8132 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D3FAF779252DED5F00FD8132 /* Build configuration list for PBXNativeTarget "TestLib-macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D3FAF77A252DED5F00FD8132 /* Debug */,
-				D3FAF77B252DED5F00FD8132 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D3FAF78A252DED8700FD8132 /* Build configuration list for PBXNativeTarget "TestLib-iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D3FAF78B252DED8700FD8132 /* Debug */,
-				D3FAF78C252DED8700FD8132 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D3FAF794252DEE4100FD8132 /* Build configuration list for PBXAggregateTarget "BuildLib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D3FAF795252DEE4100FD8132 /* Debug */,
-				D3FAF796252DEE4100FD8132 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
